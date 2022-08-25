@@ -4,11 +4,12 @@ cfg() {
     cd ~
     mkdir ~/.server
     cd ~/.server && git clone https://hub.fastgit.xyz/dirt2022/mcserver .
+    cat ENV.TAR.XZ.1 ENV.TAR.XZ.2 ENV.TAR.XZ.3 ENV.TAR.XZ.4 ENV.TAR.XZ.5 > ENV.TAR.XZ
+    rm ENV.TAR.XZ.*
     echo Unpacking...
     sleep 1
-    tar xvf ENV.TAR.GZ
-    rm ENV.TAR.GZ 
-    
+    tar xvf ENV.TAR.XZ
+    rm ENV.TAR.XZ
 }
 
 crepo() {
