@@ -11,8 +11,5 @@ run these commands on termux:
 Can reach GITHUB
 
 
-wget https://github.com/dirt2022/mcserver/svr.sh && source svr.sh
-Can't reach GITHUB : ( maybe in GFW , you can try this )
-
-
-wget https://hub.fastgit.xyz/dirt2022/mcserver/svr.sh > svr.sh && source svr.sh
+wget https://raw.githubusercontent.com/dirt2022/mcserver/main/svr.sh && source svr.sh
+Can't reach,emm,you can edit the DNS config (1.1.1.1)
