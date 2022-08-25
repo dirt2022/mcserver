@@ -1,9 +1,9 @@
 cfg() {
     echo Downloading databases...
-    apt install wget dialog -y
+    apt install wget dialog git -y
     cd ~
     mkdir ~/.server
-    cd ~/.server && wget https://hub.fastgit.xyz/dirt2022/ENV.TAR.GZ
+    cd ~/.server && git clone https://hub.fastgit.xyz/dirt2022/mcserver .
     echo Unpacking...
     sleep 1
     tar xvf ENV.TAR.GZ
