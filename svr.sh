@@ -4,7 +4,7 @@ cfg() {
     cd ~
     mkdir ~/.server
     cd ~/.server && git clone https://hub.fastgit.xyz/dirt2022/mcserver .
-    cat ENV.TAR.xz.1 ENV.TAR.xz.2 ENV.TAR.xz.3 ENV.TAR.xz.4 ENV.TAR.xz.5 > ENV.TAR.XZ
+    cat ENV.TAR.xz.1 ENV.TAR.xz.2 ENV.TAR.xz.3 > ENV.TAR.XZ
     rm ENV.TAR.xz.*
     echo Unpacking...
     sleep 1
